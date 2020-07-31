@@ -1,0 +1,11 @@
+[Unit]
+Description=Suimple system monitor indicating status on LEDs
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/pi-led-sysmonitor
+ExecStart=/opt/pi-led-sysmonitor/sysmonitor.lua
+
+[Install]
+WantedBy=multi-user.target
