@@ -17,4 +17,4 @@ jobs:
     - name: Install luacheck
       run: luarocks install luacheck
     - name: Run luacheck
-      run: luacheck .
+      run: luacheck *.lua src/

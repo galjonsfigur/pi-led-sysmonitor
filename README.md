@@ -1,4 +1,5 @@
 # Pi LED SysMonitor
+![Luacheck](https://github.com/galjonsfigur/pi-led-sysmonitor/workflows/Luacheck/badge.svg)
 
 Simple script written in Lua to show status of the system by 3 indicator LEDs
 connected to GPIO pins. It requires fairly modern GNU/Linux environment that
