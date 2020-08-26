@@ -1,5 +1,5 @@
 [Unit]
-Description=Suimple system monitor indicating status on LEDs
+Description=Simple system monitor indicating status on LEDs
 After=network.target
 
 [Service]
